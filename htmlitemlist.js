@@ -1,15 +1,15 @@
- // GETELEMENTID
-// console.log(document.getElementById('header-title'));
-// var headerTitle = documents.getElementById('header-title');
-// var header = documents.getElementById('main-header');
-// console.log(headerTitle);
-// headerTitle.textContent = 'Hello';
-// headerTitle.innerText = 'Goodbye';
-// console.log(headerTitle.innerText);
-// headerTitle.innerHTML = '<h3>Hello</h3>';
-// header.style.borderBottom = 'solid 3px =000';
+ GETELEMENTID
+console.log(document.getElementById('header-title'));
+var headerTitle = documents.getElementById('header-title');
+var header = documents.getElementById('main-header');
+console.log(headerTitle);
+headerTitle.textContent = 'Hello';
+headerTitle.innerText = 'Goodbye';
+console.log(headerTitle.innerText);
+headerTitle.innerHTML = '<h3>Hello</h3>';
+header.style.borderBottom = 'solid 3px =000';
 
-// GETELEMENTBYCLASSNAME
+GETELEMENTBYCLASSNAME
 
 var item = documents.getElementsByclassName("list-group-item");
 console.log(item);
@@ -56,7 +56,53 @@ var titles = document.querySelectorAll('.title');
 console.log(title);
 titles[0].textContent = 'Hello';
 
+// ParentNode
+console.log(itemList.parentNode);
+itemlist.parentnode.style,background = '#f4f4f4';
+console.log(itemList.parentNode,parentNode.parentNode);
 
+// ParentElement
+console.log(itemList.parentNode);
+itemlist.parentElement.style,background = '#f4f4f4';
+console.log(itemList.parentElement,parentElement.parentElement);
+
+// ChildNodes
+//console.log(itemlist.childNodes);
+ console.log(itemList.children);
+ console.log(itemList.children[1]);
+ itemList.children[1].style/background = 'yellow';
+ 
+//  FirstChild
+console.log(itemList.Firstchildren);
+
+// firstElementchild
+console.log(itemList.Firstchild);
+
+// lastChild
+console.log(itemlist.lastchild);
+lastElementChild
+console.log(itemlist.lastElementchild);
+itemlist.firstElemnetChild.textcontent = 'hello 1';
+
+
+// nextSibling
+console.log(itemlist.nextSibling);
+nextElementSibling
+console.log(itemList.nextElementSibling);
+
+// previousSibling
+console.log(itemList.previousSibling);
+previousElementSibling
+console.log(itemlist.previousElementSibling);
+
+
+var newDiv = document.createElement('div');
+newDiv.classNAme = 'hello'
+newDiv.id = 'hello1';
+newDiv.setAttribute('title','Hello Div');
+var newDivText = document.createTextNode('Hello Word');
+newDiv.appendChild(newDivText);
+console.log(newDiv);
 
 
 
